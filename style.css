@@ -9,12 +9,20 @@
   color: var(--color-main-black);
 }
 
-.onboarding {
+main {
   position: relative;
-  margin-block-start: 94px;
+}
+
+.onboarding {
+  margin-block-start: 48px;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-large-64);
+}
+
+.onboarding__picture {
+  align-self: center;
+  width: clamp(11.5rem, -8.5rem + 100vw, 29rem);
 }
 
 .onboarding__description {
