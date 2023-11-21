@@ -26,27 +26,35 @@
   --h1-font-size: 24px;
   --h1-font-weight: 700;
   --h1-line-height: 100%;
+  
   --h2-font-size: 16px;
   --h2-font-weight: 600;
   --h2-line-height: 125%;
+
   --h3-font-size: 16px;
   --h3-font-weight: 600;
   --h3-line-height: 150%;
+
   --paragraph-font-size: 16px;
   --paragraph-font-weight: 400;
   --paragraph-line-height: 150%;
+
   --little-description-font-size: 12px;
   --little-description-font-weight: 400;
   --little-description-line-height: 125%;
+
   --small-text-font-size: 16px;
   --small-text-font-weight: 400;
   --small-text-line-height: 125%;
+
   --big-text-bold-font-size: 32px;
   --big-text-bold-font-weight: 700;
   --big-text-bold-line-height: 125%;
+
   --big-text-reg-font-size: 32px;
   --big-text-reg-font-weight: 400;
   --big-text-reg-line-height: 125%;
+
   --button-text-font-size: 20px;
   --button-text-font-weight: 600;
   --button-text-line-height: 120%;
