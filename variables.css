@@ -1,0 +1,60 @@
+:root {
+  /*colors*/
+  --color-main-black: #181818;
+  --color-main-beige: #E0D0B0;
+  --color-main-gray: #F6F6F6;
+  --color-accent-red: #F00;
+  --color-accent-add-red: #EA4D4D;
+  --color-accent-green: #12A43B;
+  --color-accent-brown: #706041;
+  --color-shades-gray-300: #8B8B8B;
+  --color-shades-gray-200: #D1D1D1;
+  --color-shades-gray-100: #EEE;
+  
+  /*spacing*/
+  --spacing-tiny-4: 4px;
+  --spacing-small-8: 8px;
+  --spacing-medium-12: 12px;
+  --spacing-medium-16: 16px;
+  --spacing-medium-24: 24px;
+  --spacing-large-32: 32px;
+  --spacing-large-48: 48px;
+  --spacing-large-64: 64px;
+
+  /*typography-main*/
+  --main-font-family: 'Raleway';
+  --h1-font-size: 24px;
+  --h1-font-weight: 700;
+  --h1-line-height: 100%;
+  --h2-font-size: 16px;
+  --h2-font-weight: 600;
+  --h2-line-height: 125%;
+  --h3-font-size: 16px;
+  --h3-font-weight: 600;
+  --h3-line-height: 150%;
+  --paragraph-font-size: 16px;
+  --paragraph-font-weight: 400;
+  --paragraph-line-height: 150%;
+  --little-description-font-size: 12px;
+  --little-description-font-weight: 400;
+  --little-description-line-height: 125%;
+  --small-text-font-size: 16px;
+  --small-text-font-weight: 400;
+  --small-text-line-height: 125%;
+  --big-text-bold-font-size: 32px;
+  --big-text-bold-font-weight: 700;
+  --big-text-bold-line-height: 125%;
+  --big-text-reg-font-size: 32px;
+  --big-text-reg-font-weight: 400;
+  --big-text-reg-line-height: 125%;
+  --button-text-font-size: 20px;
+  --button-text-font-weight: 600;
+  --button-text-line-height: 120%;
+
+  /*typography-accent*/
+  --number-font-family: 'Cakra', monospace;
+  --number-font-size: 40px;
+  --number-font-weight: 400;
+  --number-line-height: 120%;
+  --number-letter-spacing: 2px;
+}
