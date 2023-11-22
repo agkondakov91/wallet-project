@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
     <meta
       name="description"
       content="Онлайн-кошелёк для управления личными финансами."
@@ -12,6 +15,7 @@
       name="keywords"
       content="финансы, кошелёк, доход, расход, управление, деньги, статистика"
     />
+    <meta name="author" content="Александр Кондаков, Динара Дуланова" />
     <meta property="og:title" content="Wallet Online" />
     <meta
       property="og:url"
@@ -30,29 +34,32 @@
   </head>
   <body class="page">
     <header class="header">
-      <a href="#" class="header__icon-back" target="_self"></a>
-      <h1 class="header__title">Header Title</h1>
+      <a href="#" class="header__icon-back header-hidden" target="_self"></a>
+      <h1 class="header__title header-hidden">Header Title</h1>
       <a
         href="./pages/main-page.html"
         class="header__icon-exit"
         target="_self"
       ></a>
     </header>
-    <main class="onboarding">
-      <img
-        src="./images/wallet.svg"
-        alt="Пластиковая карта в изометрии"
-        class="onboarding__picture"
-      />
-      <div class="onboarding__description">
-        <h2>Лёгкое управление финансами</h2>
-        <p>Следи за расходами и доходами, планируй свои финансы</p>
-      </div>
-      <div class="onboarding__slider"></div>
-
+    <main class="content">
+      <section class="onboarding content__onboarding">
+        <img
+          src="./images/wallet.svg"
+          alt="Пластиковая карта в изометрии"
+          class="onboarding__picture"
+        />
+        <div class="onboarding__description">
+          <h2>Лёгкое управление финансами</h2>
+          <p>Следи за расходами и доходами, планируй свои финансы</p>
+        </div>
+        <div class="onboarding__slider"></div>
+      </section>
+    </main>
+    <footer>
       <a href="./pages/main-page.html" class="main-button" target="_self"
         ><span class="main-button__text">Далее</span></a
       >
-    </main>
+    </footer>
   </body>
 </html>

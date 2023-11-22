@@ -1,6 +1,12 @@
-.page {
-  max-width: 600px;
+html {
   height: 100lvh;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-width: 600px;
   margin: 0 auto;
   padding: var(--spacing-medium-24);
   box-sizing: border-box;
@@ -16,18 +22,17 @@
   align-items: center;
 }
 
+.header-hidden {
+  visibility: hidden; /* скрыли временно элемент */
+}
+
 .header__icon-back {
-  visibility: hidden; /* скрыли временно */
   width: 40px;
   height: 40px;
-  background-image: url(./images/icons/icon_back.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background: url(./images/icons/icon_back.svg) no-repeat center / contain;
 }
 
 .header__title {
-  visibility: hidden; /* скрыли временно */
   font-size: var(--h1-font-size);
   font-weight: var(--h1-font-weight);
   line-height: var(--h1-line-height);
@@ -36,19 +41,19 @@
 .header__icon-exit {
   width: 40px;
   height: 40px;
-  background-image: url(./images/icons/icon_exit.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background: url(./images/icons/icon_exit.svg) no-repeat center / contain;
 }
 /* ---------------------------------------------- */
 
-main {
-  position: relative;
+.content {
+  flex-grow: 1;
+}
+
+.content__onboarding {
+  margin-block-start: var(--spacing-large-48);
 }
 
 .onboarding {
-  margin-block-start: 48px;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-large-64);
@@ -81,18 +86,13 @@ main {
 
 .onboarding__slider {
   width: 72px;
-  height: 8px;
-  background-image: url(./images/elem1.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  height: var(--spacing-small-8);
+  background: url(./images/elem1.svg) no-repeat center / contain;
   align-self: center;
 }
 
 /* main-button */
 .main-button {
-  position: sticky;
-  bottom: 24px;
   display: flex;
   justify-content: center;
   padding: 28px;
@@ -103,7 +103,6 @@ main {
 
 .main-button__text {
   color: var(--color-main-gray);
-  font-family: var(--main-font-family);
   font-size: var(--button-text-font-size);
   font-weight: var(--button-text-font-weight);
   line-height: var(--button-text-line-height);
