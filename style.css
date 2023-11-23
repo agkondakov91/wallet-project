@@ -109,6 +109,20 @@ html {
   align-self: center;
 }
 
+.onboarding__slider_type_next {
+  width: 72px;
+  height: var(--spacing-small-8);
+  background: url(./images/elem2.svg) no-repeat center / contain;
+  align-self: center;
+}
+
+.onboarding__slider_type_finish {
+  width: 72px;
+  height: var(--spacing-small-8);
+  background: url(./images/elem3.svg) no-repeat center / contain;
+  align-self: center;
+}
+
 /* main-button */
 .main-button {
   display: flex;
