@@ -140,3 +140,37 @@ html {
   line-height: var(--button-text-line-height);
 }
 /* ---------------------------------------------- */
+
+/* card-item */
+.card-item {
+  padding: var(--spacing-medium-24);
+  display: grid;
+  grid-template-columns: min-content /*max-content*/ minmax(30%, 1fr) 1fr;
+  gap: var(--spacing-medium-12);
+  align-items: center;
+  background-color: var(--color-shades-gray-100);
+  border-radius: 4px;
+}
+
+.card-item__icon-arrow {
+  width: var(--spacing-medium-16);
+  height: var(--spacing-medium-16);
+  background: url(./images/icons/icon_arrow-positive_up.svg) no-repeat center / contain;
+  align-self: center;
+}
+
+.card-item__category {
+  font-size: var(--small-text-font-size);
+  font-weight: var(--small-text-font-weight);
+  line-height: var(--small-text-line-height);
+}
+
+.card-item__total {
+  font-size: var(--h3-font-size);
+  font-weight: var(--h3-font-weight);
+  line-height: var(--h3-line-height);
+  font-variant-numeric: lining-nums proportional-nums;
+  justify-self: end;
+}
+
+/* ---------------------------------------------- */
