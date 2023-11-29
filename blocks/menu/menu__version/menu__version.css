@@ -1,0 +1,5 @@
+.menu__version {
+  padding-block-start: var(--spacing-large-64);
+  text-align: center;
+  font-variant-numeric: lining-nums proportional-nums;
+}
