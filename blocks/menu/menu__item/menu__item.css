@@ -1,0 +1,5 @@
+.menu__item {
+  font-size: var(--big-text-reg-font-size);
+  font-weight: var(--big-text-reg-font-weight);
+  line-height: var(--big-text-reg-line-height);
+}

@@ -1,0 +1,8 @@
+/* menu */
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/menu__content/menu__content.css);
+@import url(../blocks/menu/menu__item/menu__item.css);
+@import url(../blocks/menu/menu__item/_type/menu__item_type_bold.css);
+@import url(../blocks/menu/menu__link/menu__link.css);
+@import url(../blocks/menu/menu__list/menu__list.css);
+@import url(../blocks/menu/menu__version/menu__version.css);
