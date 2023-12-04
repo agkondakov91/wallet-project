@@ -1,0 +1,10 @@
+.menu__item_type_bold {
+  /* width: 100%;
+  text-align: center;
+  padding: 20px 0 20px; */
+  font-size: var(--big-text-bold-font-size);
+  font-weight: var(--big-text-bold-font-weight);
+  line-height: var(--big-text-bold-line-height);
+  /* background-color: var( --color-main-beige);
+  border-radius: 4px; */
+}
