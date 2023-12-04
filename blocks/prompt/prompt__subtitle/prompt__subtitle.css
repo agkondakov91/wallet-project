@@ -1,0 +1,6 @@
+.prompt__subtitle {
+  width: calc(100% - 40px);
+  font-size: var(--paragraph-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--paragraph-line-height);
+}

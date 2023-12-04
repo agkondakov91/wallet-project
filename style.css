@@ -172,3 +172,34 @@ html {
   font-variant-numeric: lining-nums proportional-nums;
   justify-self: end;
 }
+
+
+/* period */
+.period {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-large-64);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: var(--main-font-family);
+  color: var(--color-main-black);
+  visibility: visible;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.period__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-large-32);
+  padding: var(--spacing-medium-24);
+  box-sizing: border-box;
+  background-color: var(--color-main-gray);
+  color: inherit;
+  visibility: visible;
+  border-radius: 0 0 4px 4px;
+}

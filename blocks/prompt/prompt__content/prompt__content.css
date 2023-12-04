@@ -1,0 +1,11 @@
+.prompt__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-large-32);
+  padding: var(--spacing-medium-24);
+  box-sizing: border-box;
+  background-color: var(--color-main-gray);
+  color: inherit;
+  visibility: visible;
+  border-radius: 0 0 4px 4px;
+}

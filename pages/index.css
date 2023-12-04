@@ -6,3 +6,8 @@
 @import url(../blocks/menu/menu__link/menu__link.css);
 @import url(../blocks/menu/menu__list/menu__list.css);
 @import url(../blocks/menu/menu__version/menu__version.css);
+
+/* prompt */
+@import url(../blocks/prompt/prompt.css);
+@import url(../blocks/prompt/prompt__content/prompt__content.css);
+@import url(../blocks/prompt/prompt__subtitle/prompt__subtitle.css);
