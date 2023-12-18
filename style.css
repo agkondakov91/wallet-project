@@ -61,6 +61,12 @@ html {
   height: 40px;
   background: url(./images/icons/icon_exit.svg) no-repeat center / contain;
 }
+
+.header__icon-menu {
+  width: 40px;
+  height: 40px;
+  background: url(./images/icons/icon_menu.svg) no-repeat center / contain;
+}
 /* ---------------------------------------------- */
 
 .content {
@@ -174,3 +180,188 @@ html {
 }
 
 /* ---------------------------------------------- */
+.content {
+  margin: 0 auto 0;
+}
+.page-title {
+  text-align: center;
+}
+
+.slider-container {
+  display: flex;
+  margin: 48px auto 0;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.next-button, .prev-button{
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  object-fit: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.slider_item {
+  text-align: center;
+  font-size: var(--big-text-reg-font-size);
+  font-weight: var(--big-text-reg-font-weight);
+  line-height: var(--big-text-reg-line-height);
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 24px auto 0;
+  align-items: center;
+}
+
+.mainInfo__total_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainInfo__total {
+  font-family: var(--number-font-family);
+  font-size: var(--number-font-size);
+  font-weight: var(--number-font-weight);
+  line-height: var(--number-line-height);
+  letter-spacing: var(--number-letter-spacing);
+  cursor: pointer;
+}
+
+.mainInfo__learning {
+  width: var(--spacing-medium-24);
+  height: var(--spacing-medium-24);
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.mainInfo__difference_container {
+  display: flex;
+  margin-top: 16px;
+}
+
+.mainInfo__difference_icon {
+  width: var(--spacing-medium-16);
+  height: var(--spacing-medium-16);
+  background: url(./images/icons/icon_arrow-positive_up.svg) no-repeat center / contain;
+  align-self: center;
+}
+
+.mainInfo__difference_summ {
+  font-family: var(--main-font-family);
+  font-size: var(--small-text-font-size);
+  font-weight: var(--small-text-font-weight);
+  line-height: var(--small-text-line-height);
+  margin-left: var(--spacing-medium-16);
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+.mainInfo__period_title {
+  color: var(--color-shades-gray-300);
+  font-family: var(--main-font-family);
+  font-size: var(--small-text-font-size);
+  font-weight: var(--small-text-font-weight);
+  line-height: var(--small-text-line-height);
+  margin: 8px 0 0;
+}
+
+.toolbar__histogram_category {
+  margin: 12px auto 0;
+  display: flex;
+  justify-content: center;
+  height: 16px;
+}
+
+.top__category {
+  margin: 32px 0 0;
+}
+
+.top__category_title {
+  font-size: var(--small-text-font-size);
+  font-weight: var(--button-text-font-weight);
+  line-height: var(--small-text-line-height);
+}
+
+.top__category_blocks {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 16px auto 0;
+}
+
+.top__category_block {
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--main-font-family);
+  font-size: var(--small-text-font-size);
+  font-weight: var(--small-text-font-weight);
+  line-height: var(--small-text-line-height);
+}
+
+.beige {
+  background-color: var(--color-main-beige);
+}
+
+.lightBrown {
+  background-color: var(--color-accent-lightBrown);
+}
+
+.brown {
+  background-color: var(--color-accent-brown);
+  color: white;
+}
+
+.picture {
+  margin: 38px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.picture__button {
+  height: 158px;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.picture__button_img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.picture__button_title {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: white;
+  font-size: var(--h3-font-size);
+  font-weight: var(--paragraph-font-weight);
+  line-height: var(--h3-line-height);
+}
+
+.footer {
+  width: 366px;
+  margin: 36px auto 0;
+}
