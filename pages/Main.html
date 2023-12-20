@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="icon" href="./images/favicon/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon/apple-icon.png" />
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="stylesheet" href="/variables.css" />
+    <link rel="stylesheet" href="/globals.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="#" class="header__icon-back header-hidden" target="_self"></a>
+      <h1 class="header__title">Текущий баланс</h1>
+      <a
+        href="#"
+        class="header__icon-menu"
+      ></a>
+      </header>
+    <main class="content">
+      <section class="slider-container">
+        <button class="prev-button" aria-label="Предыдущий месяц"><img src="../images/slider_prev.svg"></button>
+        <div class="slider">
+          <p class="slider_item"></p>
+          <p class="slider_item"></p>
+          <p class="slider_item"></p>
+        </div>
+        <button class="next-button" aria-label="Следующий месяц"><img src="../images/slider_next.svg"></button>
+      </section>
+      <section class="mainInfo">
+        <div class="mainInfo__total_container">
+          <div class="mainInfo__total">123 000 ₽</div>
+          <div class="mainInfo__learning"><img src="../images/icons/info.svg"></div>
+        </div>
+        <div class="mainInfo__difference_container">
+          <div class="mainInfo__difference_icon"></div>
+          <div class="mainInfo__difference_summ">3 250 ₽</div>
+        </div>
+        <div class="mainInfo__period_title">за последний месяц</div>
+      </section>
+      <div class="toolbar__histogram_category">
+        <img src="../images/toolbar.png" alt="">
+      </div>
+      <section class="top__category">
+        <div class="top__category_title">ТОП трат в категориях:</div>
+        <div class="top__category_blocks">
+          <div class="top__category_block beige">Семья</div>
+          <div class="top__category_block lightBrown">Аптеки</div>
+          <div class="top__category_block brown">Продукты</div>
+        </div>
+      </section>
+      <section class="picture">
+        <button class="picture__button">
+          <img class="picture__button_img" src="../images/Расходы.png" alt="">
+          <span class="picture__button_title">Расходы</span>
+        </button>
+        <button class="picture__button">
+          <img class="picture__button_img" src="../images/Доходы.png" alt="">
+          <span class="picture__button_title">Доходы</span>
+        </button>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="" class="main-button"><span class="main-button__text">Добавить операцию</span></a>
+    </footer>
+    <script src="../script.js"></script>
+    <script src="../serv.js"></script>
+  </body>
+</html>
